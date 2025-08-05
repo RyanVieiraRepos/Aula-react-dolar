@@ -7,9 +7,9 @@ function App() {
   return (
     <>
     <div className='container'>
-
+     <Titulo/>
     </div>
-      <Titulo/>
+      
       
     </>
   )
