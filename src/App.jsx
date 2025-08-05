@@ -1,12 +1,16 @@
 import { useState } from 'react'
-import header from './header'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Titulo from './components/Titulo'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <header/>
+    <div className='container'>
+
+    </div>
+      <Titulo/>
+      
     </>
   )
 }
