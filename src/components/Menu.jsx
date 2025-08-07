@@ -1,7 +1,7 @@
 
 
 
-function Body() {
+function Menu() {
 
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
@@ -23,9 +23,7 @@ function Body() {
         </ul>
 
       </div>
-
-
     </nav>
   )
 }
-export default Body
+export default Menu

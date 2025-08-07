@@ -1,10 +1,10 @@
 
+
+
 function Carrosel() {
     return (
-
         <>
-
-            <div className="container w-30">
+            <div className="container" id="carrosel">
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></li>
